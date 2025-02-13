@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="css/yes_style.css">
+</head>
+<body>
+    <script>
+        setTimeout(function() {
+            window.location.href = "final.html"; // Change to your target page
+        }, 10000); // 10,000 milliseconds = 10 seconds
+    </script>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Hurrayyyyyy!!!</h1>
+        </div>
+        <audio id="applauding" src="audios/applause.mp3"></audio>
+        <script>
+            let sound = document.getElementById("applauding");
+            sound.play();
+        </script>
+        <div class="gif_container">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnhyNW11eWtzbmFod2Q2ZDI5M244bjd4N2ZienY2aGd6YXRxaW9qNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/P5jymMGu6NBaNL5Xsd/giphy.gif" alt="gif">
+        </div>
+    </div>
+</body>
+</html>
